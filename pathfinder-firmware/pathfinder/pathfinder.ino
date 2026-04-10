@@ -8,18 +8,20 @@ int LED2 = D4;
 int LED3 = D5;
 int LED4 = D6;
 
+int buzzerPin = 8;
+
 void setup() {
   pinMode(BUT1, INPUT_PULLUP);
   pinMode(BUT2, INPUT_PULLUP);
   pinMode(BUT3, INPUT_PULLUP);
   pinMode(BUT4, INPUT_PULLUP);
 
-
   pinMode(LED1, OUTPUT);
   pinMode(LED2, OUTPUT);
   pinMode(LED3, OUTPUT);
   pinMode(LED4, OUTPUT);
 
+  pinMode(buzzerPin, OUTPUT);
   long startTime = millis();
 }
 
@@ -32,29 +34,39 @@ void loop() {
   if (digitalRead(BUT1) == HIGH) {
     but1time = millis();
     digitalWrite(LED1, HIGH);
+    tone(buzzerPin, 1000);
   } else {
     digitalWrite(LED1, LOW);
+    noTone(buzzerPin);
   }
 
   if (digitalRead(BUT2) == HIGH) {
     but2time = millis();
     digitalWrite(LED2, HIGH);
+    tone(buzzerPin, 1000);
   } else {
     digitalWrite(LED2, LOW);
+    noTone(buzzerPin);
   }
 
   if (digitalRead(BUT3) == HIGH) {
     but3time = millis();
     digitalWrite(LED3, HIGH);
+    tone(buzzerPin, 1000);
+
   } else {
     digitalWrite(LED3, LOW);
+    noTone(buzzerPin);
   }
 
   if (digitalRead(BUT4) == HIGH) {
     but4time = millis();
     digitalWrite(LED4, HIGH);
+    tone(buzzerPin, 1000);
+
   } else {
     digitalWrite(LED4, LOW);
+    noTone(buzzerPin);
   }
 
 
@@ -67,10 +79,10 @@ void loop() {
   if (digitalRead(BUT3) == HIGH) {
     but3time++;
   } else {
-    but3time = 0 ;
+    but3time = 0;
   }
 
-  if (but3time >= 800 ) {
+  if (but3time >= 800) {
     digitalWrite(LED3, HIGH);
   } else {
     digitalWrite(LED3, LOW);
