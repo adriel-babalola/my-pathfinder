@@ -13,10 +13,17 @@ i originally wanted to make a pomodoro timer but honestly it was way too complex
 ## Pictures
 
 **3D Model**
-<!-- Screenshot of full 3D model -->
+
+
+<img width="739" height="413" alt="image" src="https://github.com/user-attachments/assets/51bfd3ee-c51d-4739-94c6-e82f979d8c56" />
+
+
+
 
 **PCB**
-<!-- Screenshot of PCB layout -->
+
+
+<img width="741" height="390" alt="image" src="https://github.com/user-attachments/assets/ddb024fe-f3ee-477d-ab30-8aff1b81a0bf" />
 
 
 ---
