@@ -22,7 +22,7 @@ i originally wanted to make a pomodoro timer but honestly it was way too complex
 ---
 
 ## BOM
-
+ 
 | Designator | Part | Quantity | Unit Price (USD) | Total (USD) | Supplier | Link |
 |---|---|---|---|---|---|---|
 | BZ1 | Passive Buzzer 9042 16ohm AC 3V/3.3V | 1 | $1.04 | $1.04 | AliExpress | [Link](https://www.aliexpress.com/item/1005008414603547.html) |
@@ -31,5 +31,7 @@ i originally wanted to make a pomodoro timer but honestly it was way too complex
 | D1–D4 | 10mm Round Top Super Bright White LED | 4 | — | $3.55 | AliExpress | [Link](https://www.aliexpress.com/item/1005007931873474.html) |
 | R1–R4 | 220R Carbon Film Resistor 1/2W 5% | 4 | — | $1.04 | AliExpress | [Link](https://www.aliexpress.com/item/1005007551484723.html) |
 | R5 | 100R Carbon Film Resistor 1/2W 5% | 1 | — | $0.97 | AliExpress | [Link](https://www.aliexpress.com/item/1005007551484723.html) |
-
-**Total: $12.03**
+| — | Custom PCB (JLCPCB) | 5 | — | $2.00 | JLCPCB | — |
+ 
+**Total: $14.03**
+ 
